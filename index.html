@@ -13,7 +13,7 @@
     <meta charset="UTF-8">
     <meta name="robots" content="index, follow" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta property="og:title" content="گاهشمار نگارستان" />
+    <meta property="og:title" content="ساعت و تقویم ایران" />
     <meta property="og:description" content="گاهشمار ۲۷۰۰ ساله نگارستان یک تقویم آنلاین ایرانی، که از مبدا تاریخ امپراطوری مادها در زمان پادشاهی دیاکو محاسبه شده است." />
     <meta property="og:site_name" content="ساعت و تقویم ایران" />
     <meta name="og:type" content="article" />
@@ -32,7 +32,7 @@
     <link href="./dist/css/style.css" rel="stylesheet">
     <link href="./dist/css/all.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
-    <title>ساعت و تقویم ایران - گاهشمار نگارستان</title>
+    <title>ساعت و تقویم ایران</title>
 </head>
 <body>
     
@@ -107,10 +107,17 @@
                             <div class="numWeek w-7 h-7 font-light">پ</div>
                             <div class="numWeek w-7 h-7 font-light">آ</div>
                         </div>
+
+                        <div class="text-white h-full" id="calendar-holiday"></div>
                         
                         <div class="eventBox mt-4">
                             <div class="eventList float-right flex mb-3 text-sm font-light text-white" id="holiday-list"></div>
                         </div>
+                        
+                        <div id="loading">
+                            <div class="spinner"></div> 
+                        </div>
+                        
                     </div>
 
                 </div>
