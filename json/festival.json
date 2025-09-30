@@ -7,5 +7,13 @@
         "image": "map.png"
       }
     ]
+    "مهر": [
+      {
+        "id": "nowruz", 
+        "day": 8,
+        "name": "تولد نیکا",
+        "image": "map.png"
+      }
+    ]
   }
   
